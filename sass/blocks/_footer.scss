@@ -122,3 +122,29 @@
       content: '';
    }
 }
+
+@media only screen and (max-width:565px) {
+   .site-footer{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #3D4F64;
+   }
+   .footer-content{
+      display: block;
+   }
+   .diaz-box{
+      margin-top: 30px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+   }
+   .contacts-list{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+   .diaz-link{
+      margin-left: 120px;
+   }
+}

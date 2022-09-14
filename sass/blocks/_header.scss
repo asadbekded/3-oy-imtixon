@@ -88,4 +88,24 @@
    color: #FFC94F;
 }
 
+.burger-btn {
+   width: 30px;
+   display: none;
+   border: none;
+   color: #FFC94F;
+   background-color: transparent;
+   margin-left: auto;
+ }
+
+@media only screen and (max-width:565px) {
+   .nav-list{
+      display: none;
+   }
+   .burger-btn {
+      display: inline-block;
+      font-size: 20px;
+    }
+}
+
+
    
