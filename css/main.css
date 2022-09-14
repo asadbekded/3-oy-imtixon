@@ -1054,6 +1054,192 @@ main {
   padding: 13px 35px;
 }
 
+.last-section {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.last-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.last-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 870px;
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+  overflow: auto;
+}
+
+.last-title {
+  position: relative;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 120%;
+  color: #505050;
+}
+
+.last-title::before {
+  position: absolute;
+  width: 133px;
+  height: 133px;
+  background-image: url("../images/notebook.png");
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: -45px;
+  bottom: -53px;
+  z-index: -1;
+  content: '';
+}
+
+.last-item {
+  border-bottom: 1px solid #EFEFEF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  margin-right: 98px;
+}
+
+.flash-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 321%;
+  color: #505050;
+  margin: 0px;
+}
+
+.flash-title:hover {
+  color: #505050;
+  opacity: 0.3;
+}
+
+.last-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 321%;
+  color: #505050;
+  margin-right: 20px;
+}
+
+.last-link:hover {
+  color: #F3A800;
+}
+
+.last-link:active {
+  color: #505050;
+  opacity: 0.3;
+}
+
+.flash-box {
+  position: relative;
+}
+
+.flash-box::before {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background-image: url("../images/last.img.svg");
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  right: -20px;
+  bottom: 15px;
+  content: '';
+}
+
+.quetion-section {
+  padding-bottom: 32px;
+}
+
+.quetion-title {
+  position: relative;
+  width: 500px;
+  margin: 0px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 142%;
+  color: #535353;
+}
+
+.quetion-title::before {
+  position: absolute;
+  width: 164px;
+  height: 164px;
+  background-image: url("../images/soroq.icon.png");
+  border-radius: 3px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+  left: -110px;
+  bottom: -35px;
+  content: '';
+}
+
+.quetion-box {
+  width: 100%;
+  max-width: 950px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px auto;
+}
+
+.quetion-inp {
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  padding: 8px 0px 8px 3px;
+  border: none;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 12px;
+}
+
+.quetion-textarea {
+  resize: vertical;
+  display: block;
+  border: none;
+  height: 30px;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 50px;
+}
+
+.quetion-btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #464855;
+  background: #FFC94F;
+  border: none;
+  border-radius: 2px;
+  padding: 13px 60px;
+  margin-left: 97px;
+}
+
 .site-footer {
   padding-top: 51px;
   padding-bottom: 60px;
