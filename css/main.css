@@ -1,3 +1,58 @@
+@charset "UTF-8";
+/* montserrat-300 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/montserrat-v25-latin-300.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/montserrat-v25-latin-regular.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/montserrat-v25-latin-500.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/montserrat-v25-latin-600.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/montserrat-v25-latin-700.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-800 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local(""), url("../fonts/montserrat-v25-latin-800.woff2") format("woff2"), url("../fonts/montserrat-v25-latin-800.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -354,6 +409,7 @@ html {
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,7 +450,268 @@ main {
 }
 
 .container {
+  width: 100%;
+  max-width: 1320px;
   margin: 0px auto;
   padding: 0px 20px;
+}
+
+.text {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFC94F;
+}
+
+.hero-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.site-header {
+  background-color: #0C0537;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 84px;
+}
+
+.nav-item {
+  margin-right: 45px;
+}
+
+.just-item {
+  position: relative;
+  text-align: center;
+  margin-right: 0px;
+  padding: 10px 20px 10px 50px;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+}
+
+.just-item::before {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/Phone1.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 25px;
+  bottom: 10px;
+  content: '';
+}
+
+.mail-item {
+  position: relative;
+  margin-right: 32px;
+  margin-left: 53px;
+}
+
+.mail-item::before {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-image: url("../images/email.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: -30px;
+  bottom: 1px;
+  content: '';
+}
+
+.comfortable-item {
+  position: relative;
+}
+
+.comfortable-item::before {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-image: url("../images/избранное.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  right: -35px;
+  bottom: -2px;
+  content: '';
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.just-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFC94F;
+}
+
+.site-footer {
+  padding-top: 51px;
+  padding-bottom: 60px;
+  background-color: #3D4F64;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-box {
+  width: 100%;
+  max-width: 250px;
+}
+
+.product-str {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 214%;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.product-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.product-item + .product-item {
+  margin-top: 5px;
+}
+
+.product-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.product-link:hover {
+  border-bottom: 1px solid #FFC94F;
+  color: #FFC94F;
+}
+
+.order-box {
+  width: 100%;
+  max-width: 250px;
+}
+
+.order-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+.order-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 214%;
+  color: #FFFFFF;
+}
+
+.order-link:hover {
+  color: #FFC94F;
+}
+
+.contacts-list {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+.contacts-str {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 214%;
+  color: #FFFFFF;
+}
+
+.contacts-item {
+  margin-left: 28px;
+  margin-bottom: 5px;
+}
+
+.contacts-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 214%;
+  color: #FFFFFF;
+}
+
+.contacts-link:hover {
+  color: #FFC94F;
+}
+
+.hero-contacts {
+  position: relative;
+}
+
+.hero-contacts::before {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/Пин.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: -30px;
+  bottom: 4px;
+  content: '';
+}
+
+.laim-item {
+  position: relative;
+}
+
+.laim-item::before {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-image: url("../images/email.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: -25px;
+  bottom: 4px;
+  content: '';
+}
+
+.many-item {
+  position: relative;
+}
+
+.many-item::before {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/Phone1.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: -25px;
+  bottom: 4px;
+  content: '';
 }
 /*# sourceMappingURL=main.css.map */

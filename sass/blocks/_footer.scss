@@ -1,0 +1,124 @@
+.site-footer{
+   padding-top: 51px;
+   padding-bottom: 60px;
+   background-color: #3D4F64;
+}
+.footer-content{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.product-box{
+   width: 100%;
+   max-width: 250px;
+}
+.product-str{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 214%;
+   color: #FFFFFF;
+   display: inline-block;
+   margin-bottom: 10px;
+}
+.product-list{
+   margin: 0px;
+   padding: 0px;
+}
+.product-item + .product-item{
+   margin-top: 5px;
+}
+.product-link{
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 200%;
+   color: #FFFFFF;
+   text-decoration: none;
+   &:hover{
+      border-bottom: 1px solid #FFC94F;
+      color: #FFC94F;
+   }
+}
+
+.order-box{
+   width: 100%;
+   max-width: 250px;
+}
+.order-list{
+   margin: 0px;
+   padding: 0px;
+}
+.order-link{
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 214%;
+   color: #FFFFFF;
+   &:hover{
+      color: #FFC94F;
+   }
+}
+.contacts-list{
+   margin: 0px;
+   padding: 0px;
+   margin-top: 5px;
+}
+.contacts-str{
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 214%;
+   color: #FFFFFF;
+}
+.contacts-item{
+   margin-left: 28px;
+   margin-bottom: 5px;
+}
+.contacts-link{
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 214%;
+   color: #FFFFFF;
+   &:hover{
+      color: #FFC94F;
+   }
+}
+.hero-contacts{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-image: url("../images/Пин.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      left: -30px;
+      bottom: 4px;
+      content: '';
+   }
+}
+.laim-item{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      background-image: url("../images/email.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      left: -25px;
+      bottom: 4px;
+      content: '';
+   }
+}
+.many-item{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background-image: url("../images/Phone1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      left: -25px;
+      bottom: 4px;
+      content: '';
+   }
+}

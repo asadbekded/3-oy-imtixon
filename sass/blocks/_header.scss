@@ -1,0 +1,91 @@
+.text{
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 40px;
+   color: #FFC94F;
+}
+.hero-header{
+   display: flex;
+   align-items: center;
+   padding-top: 5px;
+   padding-bottom: 10px;
+}
+
+.site-header{
+   background-color: #0C0537;
+}
+.nav-list{
+   display: flex;
+   align-items: center;
+   margin: 0px;
+   padding: 0px;
+   margin-left: 84px;
+}
+.nav-item{
+   margin-right: 45px;
+}
+
+.just-item{
+   position: relative;
+   text-align: center;
+   margin-right: 0px;
+   padding: 10px 20px 10px 50px;
+   border: 1px solid #FFFFFF;
+   border-radius: 2px;
+   &::before{
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background-image: url("../images/Phone1.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      left: 25px;
+      bottom: 10px;
+      content: '';
+   }
+}
+.mail-item{
+   position: relative;
+   margin-right: 32px;
+   margin-left: 53px;
+   &::before{
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      background-image: url("../images/email.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      left: -30px;
+      bottom: 1px;
+      content: '';
+   }
+}
+.comfortable-item{
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      background-image: url("../images/избранное.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      right: -35px;
+      bottom: -2px;
+      content: '';
+   }
+}
+
+.nav-link{
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FFFFFF;
+}
+.just-link{
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #FFC94F;
+}
+
+   
