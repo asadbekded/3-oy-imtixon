@@ -1022,17 +1022,14 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .bear-item {
     width: 100%;
-    max-width: 300px;
-    margin-left: 50px;
+    max-width: 270px;
+    margin-left: 38px;
     padding-bottom: 20px;
     margin-bottom: 25px;
     border-bottom: none;
@@ -1051,8 +1048,8 @@ main {
     background-image: url("../images/lamp3.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    left: -50px;
-    bottom: 8px;
+    left: -45px;
+    bottom: 14px;
     content: '';
   }
   .coor-str {
@@ -1065,8 +1062,8 @@ main {
     background-image: url("../images/master.icon.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    left: -50px;
-    bottom: 2px;
+    left: -45px;
+    bottom: 7px;
     content: '';
   }
   .foor-str {
@@ -1080,7 +1077,7 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     left: -50px;
-    bottom: -2px;
+    bottom: -4px;
     content: '';
   }
   .koor-str {
@@ -1094,7 +1091,7 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     left: -50px;
-    bottom: 28px;
+    bottom: 18px;
     content: '';
   }
   .boor-str {
@@ -1108,7 +1105,7 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     left: -50px;
-    bottom: 2px;
+    bottom: 14px;
     content: '';
   }
 }
@@ -1259,9 +1256,12 @@ main {
 }
 
 @media only screen and (max-width: 565px) {
+  .water-box {
+    padding: 0px 8px 0px 8px;
+  }
   .bird-link {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 55px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -1283,7 +1283,7 @@ main {
   }
   .dizayn-item {
     width: 100%;
-    max-width: 165px;
+    max-width: 155px;
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
     border-radius: 0px;
@@ -1792,9 +1792,6 @@ main {
             justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  .diaz-link {
-    margin-left: 120px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -381,13 +381,12 @@
    }
    .fox-box{
       display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
+      align-items: center;
    }
    .bear-item{
       width: 100%;
-      max-width: 300px;
-      margin-left: 50px;
+      max-width: 270px;
+      margin-left: 38px;
       padding-bottom: 20px;
       margin-bottom: 25px;
       border-bottom: none;
@@ -405,8 +404,8 @@
          background-image: url("../images/lamp3.svg");
          background-repeat: no-repeat;
          background-size: 100%;
-         left: -50px;
-         bottom: 8px;
+         left: -45px;
+         bottom: 14px;
          content: '';
       }
    }
@@ -419,8 +418,8 @@
          background-image: url("../images/master.icon.svg");
          background-repeat: no-repeat;
          background-size: 100%;
-         left: -50px;
-         bottom: 2px;
+         left: -45px;
+         bottom: 7px;
          content: '';
       }
    }
@@ -434,7 +433,7 @@
          background-repeat: no-repeat;
          background-size: 100%;
          left: -50px;
-         bottom: -2px;
+         bottom: -4px;
          content: '';
       }
    }
@@ -448,7 +447,7 @@
          background-repeat: no-repeat;
          background-size: 100%;
          left: -50px;
-         bottom: 28px;
+         bottom: 18px;
          content: '';
       }
    }
@@ -462,7 +461,7 @@
          background-repeat: no-repeat;
          background-size: 100%;
          left: -50px;
-         bottom: 2px;
+         bottom: 14px;
          content: '';
       }
    }
@@ -595,9 +594,12 @@
 }
 
 @media only screen and (max-width:565px) {
+   .water-box{
+      padding: 0px 8px 0px 8px;
+   }
    .bird-link{
       display: inline-block;
-      margin-left: 70px;
+      margin-left: 55px;
       font-weight: 700;
       font-size: 14px;
       line-height: 17px;
@@ -619,7 +621,7 @@
    }
    .dizayn-item{
       width: 100%;
-      max-width: 165px;
+      max-width: 155px;
       background: #FFFFFF;
       border: 1px solid #EAEAEA;
       border-radius: 0px;
