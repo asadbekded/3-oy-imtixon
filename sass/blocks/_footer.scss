@@ -124,6 +124,22 @@
 }
 
 @media only screen and (max-width:565px) {
+   .footer-logo{
+      display: block;
+      text-align: center;
+   }
+   .product-box{
+      width: 100%;
+      max-width: 100%;
+      margin-top: 20px;
+      text-align: center;
+   }
+   .order-box{
+      width: 100%;
+      max-width: 100%;
+      margin-top: 20px;
+      text-align: center;
+   }
    .site-footer{
       padding-top: 20px;
       padding-bottom: 20px;
@@ -132,16 +148,17 @@
    .footer-content{
       display: block;
    }
-   .diaz-box{
-      margin-top: 30px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-   }
    .contacts-list{
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
+   }
+   .contacts-box{
+      text-align: center;
+      margin-top: 30px;
+   }
+   .diaz-link{
+      margin-left: 110px;
    }
 }

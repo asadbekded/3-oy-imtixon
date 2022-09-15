@@ -1760,6 +1760,22 @@ main {
 }
 
 @media only screen and (max-width: 565px) {
+  .footer-logo {
+    display: block;
+    text-align: center;
+  }
+  .product-box {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .order-box {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
   .site-footer {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1767,18 +1783,6 @@ main {
   }
   .footer-content {
     display: block;
-  }
-  .diaz-box {
-    margin-top: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .contacts-list {
     display: -webkit-box;
@@ -1792,6 +1796,13 @@ main {
             justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .contacts-box {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .diaz-link {
+    margin-left: 110px;
   }
 }
 /*# sourceMappingURL=main.css.map */
