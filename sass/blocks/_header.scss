@@ -105,6 +105,75 @@
       display: inline-block;
       font-size: 20px;
     }
+   //  .hero-header{
+   //    position: relative;
+   //  }
+   .open-nav{
+      position: absolute;
+      margin-left: 0px;
+      width: 100%;
+      max-width: 400px;
+      padding: 60px 50px;
+      text-align: center;
+      height: 100%;
+      top: 71px;
+      right: 0px;
+      display: block;
+      background-color: #0C0537;
+      transition: all .5s;
+      z-index: 1;
+   }
+   .nav-item{
+      margin-top: 30px;
+   }
+   .comfortable-item{
+      position: relative;
+      &::before{
+         position: absolute;
+         width: 22px;
+         height: 22px;
+         background-image: url("../images/избранное.svg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         right: 35px;
+         bottom: -2px;
+         content: '';
+      }
+   }
+   .mail-item{
+      position: relative;
+      margin-right: 32px;
+      margin-left: 53px;
+      &::before{
+         position: absolute;
+         width: 17px;
+         height: 17px;
+         background-image: url("../images/email.svg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         left: 1px;
+         bottom: 1px;
+         content: '';
+      }
+   }
+   .just-item{
+      position: relative;
+      margin-right: 0px;
+      padding: 13px 0px 13px 20px;
+      border: 1px solid #FFFFFF;
+      border-radius: 2px;
+      &::before{
+         position: absolute;
+         width: 16px;
+         height: 16px;
+         background-image: url("../images/Phone1.svg");
+         background-repeat: no-repeat;
+         background-size: 100%;
+         left: 48px;
+         bottom: 13px;
+         content: '';
+      }
+   }
 }
 
 
