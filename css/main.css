@@ -2163,4 +2163,123 @@ main {
     color: #FFFFFF;
   }
 }
+
+.why-yeuo {
+  width: 100%;
+  max-width: 250px;
+  padding: 15px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.what-euo {
+  width: 100%;
+  max-width: 220px;
+  padding: 15px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dairy-euo {
+  width: 100%;
+  max-width: 224px;
+  padding: 15px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.requis-euo {
+  width: 100%;
+  max-width: 218px;
+  padding: 15px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 565px) {
+  .why-yeuo {
+    width: 100%;
+    max-width: 250px;
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 0px;
+  }
+  .why-yeuo::before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url("../images/+.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right: -48px;
+    bottom: 55px;
+    content: '';
+  }
+  .what-euo {
+    width: 100%;
+    max-width: 220px;
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 0px;
+  }
+  .what-euo::before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url("../images/+.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right: -75px;
+    bottom: 75px;
+    content: '';
+  }
+  .dairy-euo {
+    width: 100%;
+    max-width: 224px;
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 0px;
+  }
+  .dairy-euo::before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url("../images/+.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right: -70px;
+    bottom: 75px;
+    content: '';
+  }
+  .requis-euo {
+    width: 100%;
+    max-width: 218px;
+    padding: 15px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 0px;
+  }
+  .requis-euo::before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url("../images/+.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right: -80px;
+    bottom: 35px;
+    content: '';
+  }
+}
 /*# sourceMappingURL=main.css.map */
