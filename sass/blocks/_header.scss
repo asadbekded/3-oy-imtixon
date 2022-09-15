@@ -125,6 +125,7 @@
    }
    .nav-item{
       margin-top: 30px;
+      margin-right: 0px;
    }
    .comfortable-item{
       position: relative;
@@ -135,15 +136,15 @@
          background-image: url("../images/избранное.svg");
          background-repeat: no-repeat;
          background-size: 100%;
-         right: 35px;
+         right: 60px;
          bottom: -2px;
          content: '';
       }
    }
    .mail-item{
       position: relative;
-      margin-right: 32px;
-      margin-left: 53px;
+      margin-right: 0px;
+      margin-left: 0px;
       &::before{
          position: absolute;
          width: 17px;
@@ -151,13 +152,14 @@
          background-image: url("../images/email.svg");
          background-repeat: no-repeat;
          background-size: 100%;
-         left: 1px;
+         left: 44px;
          bottom: 1px;
          content: '';
       }
    }
    .just-item{
       position: relative;
+      margin-left: 0px;
       margin-right: 0px;
       padding: 13px 0px 13px 20px;
       border: 1px solid #FFFFFF;
@@ -169,7 +171,7 @@
          background-image: url("../images/Phone1.svg");
          background-repeat: no-repeat;
          background-size: 100%;
-         left: 48px;
+         left: 28px;
          bottom: 13px;
          content: '';
       }
