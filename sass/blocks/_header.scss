@@ -12,6 +12,9 @@
 }
 
 .site-header{
+   width: 100%;
+   position: fixed;
+   z-index: 1;
    background-color: #0C0537;
 }
 .nav-list{
@@ -95,7 +98,10 @@
    color: #FFC94F;
    background-color: transparent;
    margin-left: auto;
- }
+}
+.menu-btn{
+   display: none;
+}
 
 @media only screen and (max-width:565px) {
    .nav-list{
@@ -104,10 +110,60 @@
    .burger-btn {
       display: inline-block;
       font-size: 20px;
-    }
-   //  .hero-header{
-   //    position: relative;
-   //  }
+   }
+   
+   
+   
+   .menu-btn {
+      display: inline-block;
+      height: 30px;
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+      width: 30px;
+      background-color: transparent;
+      margin-left: auto;
+   }
+   .menu-btn .bar:nth-of-type(2) {
+      top: calc(50% - 9px);
+   }
+   
+   .menu-btn .bar:nth-of-type(3) {
+      top: calc(50% + 9px);
+   }
+   
+   
+   .menu-btn .bar {
+      width: 30px;
+      height: 3px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-radius: 4px;
+      transform: translate(-50%, -50%);
+      background-color: #FFC94F;
+      transition: all 0.3s ease-in-out;
+   }
+   
+   .menu-btn.active .bar:nth-of-type(1) {
+      display: none;
+      background-color: white;
+   }
+   
+   .menu-btn.active .bar:nth-of-type(2) {
+      top: 50%;
+      background-color: #FFC94F;
+      transform: translate(-50%, 0%) rotate(45deg);
+   }
+   
+   .menu-btn.active .bar:nth-of-type(3) {
+      top: 50%;
+      background-color: #FFC94F;
+      transform: translate(-50%, 0%) rotate(-45deg);
+   }
+   
+   
+   
    .open-nav{
       position: absolute;
       margin-left: 0px;
@@ -115,13 +171,12 @@
       max-width: 400px;
       padding: 60px 50px;
       text-align: center;
-      height: 100%;
-      top: 71px;
+      top: 60px;
       right: 0px;
       display: block;
       background-color: #0C0537;
       transition: all .5s;
-      z-index: 1;
+      z-index: 10;
    }
    .nav-item{
       margin-top: 30px;
@@ -179,4 +234,3 @@
 }
 
 
-   

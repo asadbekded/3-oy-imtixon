@@ -35,10 +35,11 @@ elCustImg.addEventListener("click", function() {
 })
 
 
-var elBurger = document.querySelector(".burger-btn");
 var elNavbar = document.querySelector(".nav-list");
+const menuBtn = document.querySelector('.menu-btn');
 
-elBurger.addEventListener("click", function() {
+menuBtn.addEventListener('click', function () {
+   menuBtn.classList.toggle('active');
    elNavbar.classList.toggle("open-nav")
+   menu.classList.toggle('active');
 })
-
