@@ -632,6 +632,11 @@ main {
     content: "";
   }
 }
+@media only screen and (max-width: 480px) {
+  .open-nav {
+    max-width: 100%;
+  }
+}
 .light-section {
   padding-top: 73px;
   padding-bottom: 80px;
